@@ -15,3 +15,47 @@
 
 /* ******************************** */
 
+html{
+    background-color: #A831AB;
+}
+header{
+    height: 70vmin;
+    padding: 3rem;
+}
+header{
+    background: url(https://images.unsplash.com/photo-1600043224980-8ff99c4f7b91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1029&q=80) center/cover;
+
+}
+.navegador{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 2.5rem;
+    flex-grow: 2;
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 10px;
+    font-size: 2rem;
+}
+.quienes_somos{
+    display: inline;
+    flex-wrap: nowrap;
+}
+.quienes_somos{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    flex-wrap: wrap;
+}
+
